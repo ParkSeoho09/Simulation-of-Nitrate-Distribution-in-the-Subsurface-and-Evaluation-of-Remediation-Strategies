@@ -1,0 +1,36 @@
+{
+ "when": "2026-11-02 13:32:13",
+ "python": "3.13.3",
+ "platform": "Windows-11-10.0.26200-SP0",
+ "PHREEQC": {
+  "ok": "예",
+  "error": "",
+  "lib": "C:\\Users\\shpar\\OneDrive\\바탕 화면\\CBSH\\CHALLENGE\\WaterPrize\\waterprize_app\\waterprize_app_v2\\app\\engine_bin\\IPhreeqc-3.7.3.dll",
+  "version": "3.7.3-15968-x64",
+  "db": "C:\\Users\\shpar\\OneDrive\\바탕 화면\\CBSH\\CHALLENGE\\WaterPrize\\waterprize_app\\waterprize_app_v2\\app\\engine_data\\phreeqc.dat",
+  "시험 계산(순수 물 pH)": "6.9974e+00"
+ },
+ "phreeqpy": {
+  "import": "실패",
+  "error": "ModuleNotFoundError: No module named 'phreeqpy'"
+ },
+ "OGS(ogs 패키지)": {
+  "import": "실패",
+  "error": "ModuleNotFoundError: No module named 'ogs'"
+ },
+ "ogstools": {
+  "import": "실패",
+  "error": "ModuleNotFoundError: No module named 'ogstools'"
+ },
+ "ogs6py": {
+  "import": "실패",
+  "error": "ModuleNotFoundError: No module named 'ogs6py'"
+ },
+ "ogs 실행 파일": {
+  "실행 파일": "없음(PATH)"
+ },
+ "PFLOTRAN 실행 파일": {
+  "실행 파일": "없음(PATH)"
+ },
+ "채택": "PHREEQC(IPhreeqc)를 지화학 엔진으로 사용 · 흐름·이송은 v2 엔진 유지(사유는 README '엔진 채택 결정')"
+}

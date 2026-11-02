@@ -1,0 +1,121 @@
+[
+ {
+  "id": "A1",
+  "test": "A1_stop",
+  "pass": true,
+  "detail": "app.run_all이 stop 전달: True; 설치 단계에서 중단됨: True (stop 호출 4회)",
+  "sec": 2.23
+ },
+ {
+  "id": "A2",
+  "test": "A2_face_crossings_nonsquare",
+  "pass": true,
+  "detail": "30×20×40 격자 상자 메시: 기대와 다른 장벽 면 0개 (bx 462/462, by 588/588, bz 308/308)",
+  "sec": 0.01
+ },
+ {
+  "id": "A3",
+  "test": "A3_R_mean",
+  "pass": true,
+  "detail": "성공률 분리: True; 실패분을 평균에 포함: False",
+  "sec": 0.03
+ },
+ {
+  "id": "A4",
+  "test": "A4_count_below_precision",
+  "pass": true,
+  "detail": "직선 3,000,000개, 교차점 2,000,000개, 좌표 ~1000: 틀린 개수 0/19804",
+  "sec": 5.34
+ },
+ {
+  "id": "A5",
+  "test": "A5_react_substep_and_k3",
+  "pass": true,
+  "detail": "하위 단계 기준 0.1 meq/L: True; k3 25°C 불연속 비율 5.32e-11",
+  "sec": 0.01
+ },
+ {
+  "id": "A6",
+  "test": "A6_transient_rejects_nonconverged",
+  "pass": true,
+  "detail": "수렴 실패 해를 채택하는 코드 경로: False; 강제 실패 시 FAILED 처리: True",
+  "sec": 0.06
+ },
+ {
+  "id": "A7",
+  "test": "A7_linsolve_no_zero",
+  "pass": true,
+  "detail": "실패 시 0 벡터 반환: False; lgmres/gmres 후 spsolve: True",
+  "sec": 0.0
+ },
+ {
+  "id": "A8",
+  "test": "A8_ponding_iter_cap",
+  "pass": true,
+  "detail": "한 단계 총 뉴턴 반복 상한: True (v2: 전환 6회 × 25회 = 최대 150회)",
+  "sec": 0.0
+ },
+ {
+  "id": "A9",
+  "test": "A9_clock",
+  "pass": true,
+  "detail": "self.t 를 직접 바꾸는 곳 2곳(단일 시계 함수 외)",
+  "sec": 0.02
+ },
+ {
+  "id": "A9b",
+  "test": "A9b_fractional_days",
+  "pass": true,
+  "detail": "days=2.5 → 마지막 기록 2.5000일",
+  "sec": 5.43
+ },
+ {
+  "id": "A10",
+  "test": "A10_eval_start_trigger",
+  "pass": true,
+  "detail": "재보충 트리거에 eval_start_day 사용: False",
+  "sec": 0.0
+ },
+ {
+  "id": "A11",
+  "test": "A11_input_checks",
+  "pass": true,
+  "detail": "H_soil<=0 오류 처리: True; H_aq<dz 일 때 k_interface=9 (nz=10)",
+  "sec": 0.0
+ },
+ {
+  "id": "A12",
+  "test": "A12_through_flow_def",
+  "pass": true,
+  "detail": "'반응재가 없을 때 같은 위치 통과 유량' 기준 사용: True",
+  "sec": 0.0
+ },
+ {
+  "id": "A13",
+  "test": "A13_stl_merge",
+  "pass": true,
+  "detail": "꼭짓점 8개(기대 8), 닫힘 True",
+  "sec": 0.29
+ },
+ {
+  "id": "A14",
+  "test": "A14_triangle_pid",
+  "pass": true,
+  "detail": "삼각형 pid/p1 처리: True; 꼭짓점 인덱스 범위 검사: True",
+  "sec": 0.01
+ },
+ {
+  "id": "A15",
+  "test": "A15_opening_K",
+  "pass": true,
+  "detail": "개구부 기본 K = 0.01 (None이면 토양 K 그대로)",
+  "sec": 0.0
+ },
+ {
+  "id": "A16",
+  "test": "A16_particle_mass_big_theta_change",
+  "pass": true,
+  "detail": "정치(all_now) 때 공극 한도 무시하고 전량 포획: False",
+  "sec": 0.0
+ }
+]
